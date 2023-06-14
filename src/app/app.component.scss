@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(212, 45%, 89%);
+  margin: 10em 5em;
+  padding: 10em;
+}
+
+.mdc-card, .mat-mdc-card {
+  border-radius: var(--mdc-elevated-card-container-shape, var(--mdc-shape-medium, 10px));
+}
+
+.card {
+  max-width: 300px;
+  padding: 1em;
+  max-height: 525px;
+  text-align: center;
+}
+img {
+  border-radius: 10px;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+}
+
+.mat-caption {
+  margin: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    height: 100%;
+    margin: 0;
+    padding-top: 5em;
+  }
+}
