@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Desktop](./assets/desktop.png)
-![Mobile](./assets/mobile.png)
+![Desktop](src/assets/desktop.png)
+![Mobile](src/assets/mobile.png)
 
 ### Links
 
@@ -44,9 +44,10 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
+
 <div class="container">
   <mat-card class="card">
-    <img src="./assets/image-qr-code.png" alt="image of a qr code">
+    <img src="src/assets/image-qr-code.png" alt="image of a qr code">
     <mat-card-content>
       <h2>Improve your front-end skills by building projects</h2>
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
